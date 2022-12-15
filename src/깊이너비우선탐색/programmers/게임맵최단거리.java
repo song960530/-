@@ -7,6 +7,7 @@ public class 게임맵최단거리 {
     public static void main(String[] args) {
         int result1 = new Solution().solution(new int[][]{{1, 0, 1, 1, 1}, {1, 0, 1, 0, 1}, {1, 0, 1, 1, 1}, {1, 1, 1, 0, 1}, {0, 0, 0, 0, 1}});
         int result2 = new Solution().solution(new int[][]{{1, 0, 1, 1, 1}, {1, 0, 1, 0, 1}, {1, 0, 1, 1, 1}, {1, 1, 1, 0, 0}, {0, 0, 0, 0, 1}});
+        int result3 = new Solution().solution(new int[][]{{1, 0, 1, 1, 1}, {1, 0, 1, 0, 1}, {1, 0, 1, 1, 1}, {1, 1, 1, 0, 0}, {0, 0, 0, 0, 1}});
         System.out.println(result1);
         System.out.println(result1);
         System.out.println(result1);
@@ -15,6 +16,7 @@ public class 게임맵최단거리 {
         System.out.println(result2);
         System.out.println(result2);
         System.out.println(result2);
+        System.out.println(result3);
     }
 
     static class Solution {
